@@ -145,20 +145,6 @@ mark {
   color: inherit;
 }
 
-input::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
-
-input,
-select,
-textarea {
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  -ms-appearance: none;
-  appearance: none;
-}
-
 /* Basic */
 
 html {
@@ -2113,7 +2099,7 @@ ul.labeled-icons li h3 {
   -webkit-flex-grow: 1;
   -ms-flex-grow: 1;
   flex-grow: 1;
-  margin: 0 0 2em 0;
+  margin: 0 0 1.5em 0;
 }
 
 #header strong,
@@ -2131,9 +2117,10 @@ ul.labeled-icons li h3 {
 
 #header h1 {
   color: rgb(92, 106, 127);
-  font-size: 1.35em;
+  font-size: 1.12em;
   line-height: 1.75em;
   margin: 0;
+  border: 0;
 }
 
 #header .image.avatar {
